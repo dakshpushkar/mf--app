@@ -3,7 +3,7 @@ import { useState } from "react";
 import CreatePassword from "./CreatePassword";
 import "./otp.css";
 import "./SignUp.css";
-import "antd/dist/antd.css";  
+// import "antd/dist/antd.min.css";  
 import {notification } from "antd";
 export default function Otp(props) {
   const [otp, setOtp] = useState("");

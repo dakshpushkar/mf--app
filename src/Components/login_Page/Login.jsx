@@ -6,7 +6,7 @@ import "./login.css";
 import { Link } from "react-router-dom";
 import LoginLeftPart from "./LoginLeftPart";
 import SendOtp from "./SendOtp";
-import "antd/dist/antd.css";
+// import "antd/dist/antd.min.css";
 import {notification,message } from "antd";
 export default function Login() {
   const [mobileNumber, setMobileNumber] = useState("");

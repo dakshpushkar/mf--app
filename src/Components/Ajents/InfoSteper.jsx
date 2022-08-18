@@ -173,14 +173,14 @@ function InfoSteper() {
                           ? "Finish"
                           : "Save and continue"}
                       </p>
-                      <p
+                      {/* <p
                         variant="contained"
                         color="primary"
                         onClick={handleNext}
                         // className={classes.button}
                       >
                         {activeStep === steps.length - 1 ? "Finish" : "Next"}
-                      </p>
+                      </p> */}
                     </form>
                   </FormProvider>
                 </div>

@@ -4,7 +4,7 @@ import { useState } from "react";
 import LoginLeftPart from "../login_Page/LoginLeftPart";
 import Otp from "./Otp";
 
-import "antd/dist/antd.css";  
+// import "antd/dist/antd.min.css";  
 import {notification } from "antd";
 export default function SignUp() {
   const [phoneNumber, setPhoneNumber] = useState("");

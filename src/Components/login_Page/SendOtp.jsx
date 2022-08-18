@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import "./SendOtp.css"
 // import { ReactNotifications } from 'react-notifications-component'
-import 'react-notifications-component/dist/theme.css'
-import "antd/dist/antd.css";
+// import 'react-notifications-component/dist/theme.css'
+// import "antd/dist/antd.css";111
 import {notification } from "antd";
 export default function SendOtp(props) {
  const[userOtp,setUserOtp] =  useState()

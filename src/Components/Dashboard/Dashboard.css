@@ -56,7 +56,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 21px; */
-color: #FFFFFF;
+color: #FFFFFF !important;
 background: linear-gradient(90deg, #683FDB 0%, #A05AD8 100%);
 border-radius: 12px;
 

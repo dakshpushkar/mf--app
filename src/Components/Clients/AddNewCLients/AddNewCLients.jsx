@@ -3,14 +3,14 @@ import { useState } from "react";
 import "./AddNewClients.css";
 import NewClientsPersonalDetails from "./NewClientsPersonalDetails";
 import OtpVerifiactionCompo from "./OtpVerifiactionCompo";
-import "antd/dist/antd.css"
+// import "antd/dist/antd.css"
 import { notification } from "antd"
 export default function AddNewCLients() {
   const [email, setEmail] = useState();
   const [phone, setPhone] = useState([]);
   const [requestOtp, setRequestOtp] = useState(false);
   const [submit, setSubmit] = useState(false);
-  const[disable,setDisable ] = useState(true)
+  // const[disable,setDisable ] = useState(true)
   // const[message,setMessage] =  useState('')
   const [error, setError] = useState(null);
   const rqstForOtp = () => {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import { useState } from "react";
 // import NewClientsPersonalDetails from "./NewClientsPersonalDetails";
-import "antd/dist/antd.css";
+// import "antd/dist/antd.css";
 import { notification } from "antd";
 export default function OtpVerifiactionCompo(props) {
   const [otp, setOtp] = useState("");

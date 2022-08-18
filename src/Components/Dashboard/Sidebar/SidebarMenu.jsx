@@ -22,21 +22,21 @@ export default function SidebarMenu() {
         Clients
       </Link>
       <Link
-        to="/marketing"
+        to=""
         className={`${item === "Marketing" ? "sideBar-active-option" : ""}`}
         // onClick={() => setItem("Marketing")}
       >
         Marketing
       </Link>
       <Link
-        to="/transactions"
+        to=""
         className={`${item === "Transactions" ? "sideBar-active-option" : ""}`}
         // onClick={() => setItem("Transactions")}
       >
         Transactions
       </Link>
       <Link
-        to="/genie"
+        to=""
         className={`${item === "Genie" ? "sideBar-active-option" : ""}`}
         // onClick={() => setItem("Genie")}
       >
