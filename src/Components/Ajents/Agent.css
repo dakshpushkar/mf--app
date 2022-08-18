@@ -1,0 +1,277 @@
+.agent-pro-text {
+  width: 143px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  margin-left: 48px;
+  margin-top: 40px;
+  /* Black shades/Black shade 02 */
+
+  color: #333333;
+}
+
+.MuiStepIcon-root {
+  color: #d6d6d6 !important;
+}
+.MuiStepIcon-root.MuiStepIcon-active {
+  color: #683fdb !important ;
+}
+
+.MuiStepIcon-root.MuiStepIcon-completed {
+  color: #3ea400 !important;
+}
+
+/* .MuiStepLabel-MuiStepLabel-completed.MuiStepLabel-active {
+  font-family: "Rubik" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  text-decoration-line: underline !important;
+  color: #333333 !important;
+} */
+.MuiStepLabel-label {
+  font-family: "Rubik" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  margin-left: 24px !important;
+  color: rgba(3, 3, 3, 0.2) !important;
+}
+.MuiStepLabel-label.MuiStepLabel-completed {
+  font-family: "Rubik" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  margin-left: 24px !important;
+  text-decoration-line: underline !important;
+  color: #333333 !important;
+  cursor: pointer;
+}
+.MuiStepLabel-label.MuiStepLabel-active {
+  font-family: "Rubik" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+  margin-left: 24px !important;
+  /* identical to box height */
+
+  /* Black shades/Black shade 02 */
+
+  color: #333333 !important;
+}
+
+.MuiStepLabel-label {
+  color: rgba(0, 0, 0, 0.54);
+  /* opacity: 0.2; */
+}
+.save-next-btn {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 15px;
+  color: #2775eb;
+  cursor: pointer;
+  margin-left: 223px;
+  margin-top: 48px;
+}
+.hide-save-next-btn {
+  display: none;
+}
+
+/* -------------Personal----Form----css------------- */
+.phone-input-prefix{
+  width: 336px;
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size:20px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.8;
+  border-bottom: 1px solid #d0d0d0;
+}
+.input-phone{
+  border-style: none;
+  outline: none;
+}
+
+.email-phone-add-input {
+  width: 336px;
+  border-style: none;
+  outline: none;
+  border-bottom: 1px solid #d0d0d0;
+  /* background-color: brown; */
+}
+
+/* select{
+    width: 336px;
+} */
+select {
+  padding-bottom: 8px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 1px solid #d0d0d0;
+  outline: none;
+  width: 336px;
+  min-width: 250px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  opacity: 0.8;
+}
+/* -----------Agreement---Upload-----css-------------- */
+
+.agreement-para {
+    margin-top: 32px;
+  width: 344px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.agreement-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2775eb;
+  text-decoration: underline;
+}
+.doc-container {
+  display: none;
+}
+.doc-container-visible {
+  display: flex;
+}
+/* -------------Products-Plan----css-------------------- */
+.checkbox-heading {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 32px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.checkbox-input,
+input[type="checkbox"] {
+  accent-color: #683fdb;
+  border-radius: 4px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+}
+
+@media only screen and (min-width: 1441px) {
+  .agent-pro-text {
+    width: 9.93vw;
+    font-size: 1.66vw;
+    line-height: 1.94vw;
+    margin-left: 3.33vw;
+    margin-top: 2.77vw;
+  }
+
+
+
+
+
+  .MuiStepLabel-label {
+  
+    font-size: 1.38vw !important;
+    line-height: 1.66vw !important;
+    margin-left: 1.66vw !important;
+ 
+  }
+  .MuiStepLabel-label.MuiStepLabel-completed {
+   
+    font-size: 1.38vw !important;
+    line-height: 1.66vw !important;
+    margin-left: 1.66vw !important;
+   
+  }
+  .MuiStepLabel-label.MuiStepLabel-active {
+   
+    font-size: 1.38vw !important;
+    line-height: 1.66vw !important;
+    margin-left: 1.66vw !important;
+   
+  }
+
+ 
+
+  .save-next-btn {
+    font-size: 1.11vw;
+    line-height: 1.09vw;
+    margin-top: 3.33vw;
+    margin-left: 15.48vw;
+  }
+
+  /* -------------Personal----Form----css------------- */
+  .phone-input-prefix{
+    width: 23.33vw;
+   
+    font-size: 1.38vw;
+    line-height: 1.25vw;
+ 
+  }
+  .email-phone-add-input {
+    width: 23.33vw;
+  }
+
+  /* select{
+            width: 336px;
+        } */
+  select {
+    padding-bottom: 0.55vw;
+
+    width: 23.33vw;
+    min-width: 250px;
+
+    font-size: 1.11vw;
+    line-height: 1.25vw;
+  }
+  /* -----------Agreement---Upload-----css-------------- */
+
+  .agreement-para {
+    width: 23.88vw;
+   margin-top: 2.22vw;
+    font-size: 1.38vw;
+    line-height: 2.08vw;
+  }
+  .agreement-text {
+    font-size: 1.38vw;
+    line-height: 2.08vw;
+  }
+
+  /* -------------Products-Plan----css-------------------- */
+  .checkbox-heading {
+    margin-top: 2.22vw;
+    font-size: 1.38vw;
+    line-height: 2.08vw;
+
+  }
+
+  .checkbox-input,
+  input[type="checkbox"] {
+    accent-color: #683fdb;
+    font-size: 1.11vw;
+    line-height: 1.25vw;
+  }
+}

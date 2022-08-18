@@ -1,0 +1,123 @@
+
+.sign_up_text {
+  width: 102px;
+   margin-top: 72px;
+   /* margin-left: 72px; */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  color: #333333;
+  opacity: 0.8;
+}
+.number-input{
+  padding-bottom: 4px;
+    margin-top: 35px;
+    /* margin-left: 72px; */
+    width: 23.75vw;
+    min-width: 331px;
+    /* min-width: 250px; */
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    outline: none;
+    appearance: none;
+    border-bottom: 1px solid #d0d0d0;
+    /* opacity: 0.5; */
+}
+input::placeholder{
+height: 2vw;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #000000;
+opacity: 0.2;
+}
+ input[type="number"]{
+  font-size: 1.41vw;
+}
+.reqst-btn{
+  /* min-width: 258px; */
+  min-width: 339px;
+ margin-top: 32px;
+width: 23.75vw;
+height: 48px;
+/* margin-left: 5vw; */
+background: #D6D6D6;
+border-radius: 8px;
+border: navajowhite;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+cursor: pointer;
+}
+.reqst-btn-active{
+  /* min-width: 258px; */
+  min-width: 339px;
+margin-top: 32px;
+width: 23.75vw;
+height: 48px;
+/* margin-left: 5vw; */
+background: #D6D6D6;
+border-radius: 8px;
+border: navajowhite;
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+background: #FF9900;
+cursor: pointer; 
+}
+@media only screen and (min-width: 1441px){
+  .sign_up_text {
+    width: 7.08vw;
+     margin-top: 5vw;
+     /* margin-left: 5vw; */
+    font-size: 1.94vw;
+    line-height: 1.94vw;
+  
+  }
+  .number-input{
+    padding-bottom: 0.27vw;
+      margin-top: 2.43vw;
+      /* margin-left: 5vw; */
+      width: 23.75vw;
+      height: 2vw;
+      /* min-width: ; */
+  
+  }
+  input::placeholder{
+
+  font-size: 1.11vw;
+  line-height: 18px;
+
+  }
+  .reqst-btn{
+   margin-top: 2.22vw;
+  width: 23.75vw;
+  height: 3.33vw;
+  /* margin-left: 5vw; */
+  border-radius: 0.55vw;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+  }
+  .reqst-btn-active{
+  margin-top: 2.22vw;
+  width: 23.75vw;
+  height: 3.33vw;
+  /* margin-left: 5vw; */
+  border-radius: 0.55vw;
+  font-size: 1.11vw;
+  line-height: 1.38vw;
+
+  }
+}

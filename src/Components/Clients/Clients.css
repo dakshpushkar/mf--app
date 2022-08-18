@@ -1,0 +1,58 @@
+.cients-text{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #333333;
+}
+.add-new-clients-btn{
+width: 161px;
+height: 40px;
+background: #FF9900;
+border-radius: 8px;
+border: none;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+color: #FFFFFF;
+cursor: pointer;
+
+}
+.clietns-data-table{
+    margin-top: 16px;
+    margin-left: 3.33vw;
+width: 75.13vw;
+min-width: 1027px;
+/* height: 576px; */
+background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(116, 82, 214, 0.15);
+border-radius: 16px;
+}
+@media only screen and (min-width: 1441px){
+    .cients-text{
+   
+        font-size: 1.66vw;
+        line-height: 1.94vw;
+      
+        }
+        .add-new-clients-btn{
+        width: 11.18vw;
+        height: 2.77vw;
+        border-radius: 0.55vw;
+        font-size: 1.11vw;
+        line-height: 1.09vw;
+        
+        }
+        .clietns-data-table{
+            margin-top: 1.11vw;
+            margin-left: 3.33vw;
+        width: 75.33vw;
+        min-width: 1027px;
+        /* height: 576px; */
+    
+         border-radius: 1.11vw;
+}
+}

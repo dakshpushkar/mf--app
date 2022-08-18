@@ -1,0 +1,247 @@
+.clients-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #000000;
+  opacity: 0.8;
+}
+.client-name {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  /* text-decoration-line: underline; */
+  color: #000000;
+  opacity: 0.8;
+  margin-top: 1vw;
+}
+.client-detail-heading {
+  /* position: absolute; */
+  margin-top: 2.22vw;
+  /* width: 146px;
+height: 28px; */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+}
+
+/* -----------AboutClient--CSS---------- */
+.clientInfoHeading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.8;
+  white-space: nowrap;
+}
+.clientInfoHeadingData {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  opacity: 0.6;
+  white-space: nowrap;
+}
+
+/* ------------Chart----CSS----------- */
+.chart {
+  width: 61.85vw;
+  margin-top: 5.12vw;
+}
+
+/* -------Pie-Chert----- */
+.t-3-sector {
+  height: 11.86vw;
+  font-family: "Rubik";
+  font-style: normal;
+  font-size: 85.11vw;
+  font-size: 1.11vw;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  opacity: 0.8;
+  margin-top: -195px;
+  margin-left: -2vw;
+  gap: 0.4vw;
+}
+
+.level {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.8;
+}
+@media screen and (max-width: 1440px) and (min-width: 1024px) {
+  .t-3-sector {
+    margin-top: -13vw;
+    gap: 0.2vw;
+  }
+}
+
+/* ------------Portfolio--and-----Diversification---------- */
+.portfolio-diversi-heading {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+}
+.portfolio-sumry-data-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 2.22vw;
+  width: 600px;
+  height: 336px;
+  row-gap: 1.6vw;
+}
+
+/* ------------transaction------css-------- */
+.transaction-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+}
+.transaction-table {
+  margin-top: 2.22vw;
+  width: 73.53vw;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(116, 82, 214, 0.15);
+  border-radius: 16px;
+}
+
+/* -------Recommendation------CSS------- */
+.recommendation-container {
+  padding-bottom: 40px;
+}
+.recommendation-heading {
+  margin-top: 3.33vw;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+}
+ul,
+li {
+  margin-left: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+
+  opacity: 0.8;
+}
+
+@media only screen and (min-width: 1441px) {
+  .clients-text {
+    font-size: 0.97vw;
+    line-height: 1.25vw;
+  }
+  .client-name {
+    font-size: 0.97vw;
+    line-height: 1.25vw;
+  }
+  .client-detail-heading {
+    /* margin-top: 2.22vw; */
+
+    font-size: 1.66vw;
+    line-height: 1.94vw;
+  }
+
+  /* -----------AboutClient--CSS---------- */
+  .clientInfoHeading {
+    font-size: 0.83vw;
+    line-height: 1.09vw;
+  }
+  .clientInfoHeadingData {
+    font-size: 0.97vw;
+    line-height: 1, 18vw;
+  }
+
+  /* ------------Chart----CSS----------- */
+  .chart {
+    width: 61.85vw;
+    margin-top: 5.12vw;
+  }
+ /* -------Pie-Chert----- */
+  .t-3-sector {
+    margin-top: -12.13vw;
+    margin-left: -2vw;
+    gap: 0.4vw;
+  }
+
+  .level {
+
+  font-size: 0.88vw;
+  line-height: 1.52vw;
+  
+}
+
+
+  /* ------------Portfolio--and-----Diversification---------- */
+  .portfolio-diversi-heading {
+    font-size: 1.66vw;
+    line-height: 1.94vw;
+  }
+  .portfolio-sumry-data-container {
+    margin-top: 2.22vw;
+    width: 46.43vw;
+    height: 23.33vw;
+    row-gap: 1.6vw;
+  }
+
+  /* ------------transaction------css-------- */
+  .transaction-text {
+    font-size: 1.66vw;
+    line-height: 1.94vw;
+  }
+  .transaction-table {
+    margin-top: 2.22vw;
+    width: 73.53vw;
+
+    border-radius: 1.1w1v;
+  }
+
+  /* -------Recommendation------CSS------- */
+  .recommendation-container {
+    padding-bottom: 2.77vw;
+  }
+  .recommendation-heading {
+    margin-top: 3.33vw;
+
+    font-size: 1.66vw;
+    line-height: 1.94vw;
+  }
+  ul,
+  li {
+    margin-left: 0.69vw;
+
+    font-size: 0.97vw;
+    line-height: 1.45vw;
+  }
+}

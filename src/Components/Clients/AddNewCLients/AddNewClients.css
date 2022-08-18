@@ -1,0 +1,136 @@
+.new-client-text{
+  
+    width: 120px;
+    height: 28px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+}
+.basic-detail-text{
+/* width: 123px; */
+margin-top: 40px;
+height: 24px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #333333;
+}
+.gmail-number-text-pss-input{
+    margin-top: 42px;
+  border-style: none;
+  outline: none;
+  width: 336px;
+  border-bottom: 1px solid rgba(208, 208, 208, 0.5);
+  padding-bottom: 8px;
+  /* opacity: 0.5; */
+}
+input[type="gmail"]{
+    font-size: 1.41vw;
+}
+input[type="radio"]{
+ font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #000000;
+opacity: 0.8;
+}
+.gmail-number-text-pss-input::placeholder{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #000000;
+opacity: 0.2;
+}
+.radio-inputs,input[type="radio"]{
+    font-size: 0.97vw;
+    line-height: 1.18vw;
+    accent-color: #683FDB;
+ 
+    }
+.conde-notsend-text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    opacity: 0.8;
+}
+.resend-text{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+color: #2775EB;
+}
+/* -----------------NewClientsPersonal-css------------- */
+.gender-occupation-text{
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #000000;
+opacity: 0.8;
+}
+.gender-occupation-text-radio {
+	accent-color: green;
+}
+@media only screen and (min-width: 1441px) {
+    .new-client-text{
+        width: 8.33vw;
+        height: 1.94vw;
+        font-size: 1.66vw;
+        line-height: 1.94vw;
+        
+    }
+    .basic-detail-text{
+    /* width: 123px; */
+    margin-top: 2.77vw;
+    height: 1.66vw;
+    font-size: 1.38vw;
+    line-height: 1.66vw;
+    }
+    .gmail-number-text-pss-input{
+      margin-top: 2.91vw;
+      width: 23.33vw;
+      padding-bottom: 0.55vw;
+      /* opacity: 0.5; */
+    }
+    .gmail-number-text-pss-input::placeholder{
+    font-size: 1.11vw;
+    line-height: 1.25vw;
+    }
+    .radio-inputs,input[type="radio"]{
+       font-size: 0.97vw;
+       line-height: 1.18vw;
+       accent-color: #683FDB;
+    
+       }
+    .conde-notsend-text{
+        font-size: 0.97vw;
+        line-height: 1.25vw;
+
+    }
+    .resend-text{
+    font-size: 0.97vw;
+    line-height: 1.vw09;
+    }
+    .gender-occupation-text{
+    
+        font-size: 1.11vw;
+        line-height: 1.25vw;
+        
+        }
+    
+}

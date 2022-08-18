@@ -1,0 +1,54 @@
+.heading{
+    margin-top: 40px;
+    margin-left: 48px;
+width: 70px;
+height: 28px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #333333;
+}
+.selecter {
+    margin-top: 20px;
+
+    /* margin-left: 49px; */
+    padding-bottom: 8px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid #d0d0d0;
+    outline: none;
+    width: 246px;
+    min-width: 250px;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.8;
+  }
+  @media only screen and (min-width: 1441px){
+    .heading{
+    margin-top: 2.77vw;
+    margin-left: 3.33vw;
+    width: 4.86vw;
+    height: 1.94vw;
+    font-size: 1.66vw;
+    line-height: 1.94;
+  
+    }
+   .selecter {
+        margin-top: 1.38vw;
+    
+        /* margin-left: 49px; */
+        padding-bottom: 0.55vw;
+        width: 17.08vw;
+        min-width: 17.36vw;
+        font-size: 1.11vw;
+        line-height: 1.25vw;
+    
+      }
+  }

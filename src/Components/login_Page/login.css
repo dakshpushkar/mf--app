@@ -1,0 +1,347 @@
+.welcome-container {
+  background: linear-gradient(
+    180deg,
+    #683fdb 99.99%,
+    rgba(104, 63, 219, 0) 100%
+  );
+  width: 49.16vw;
+  /* width: 708px; */
+  height: 100vh;
+  /* height: 900px; */
+  background-color: #683fdb;
+}
+.welcome-text {
+  /* margin-top: 170px; */
+  margin-top: 88px;
+  margin-left: 9.37vw;
+  width: 30.42vw;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+}
+.welcome-para {
+  margin-top: 32px;
+  margin-left: 10.62vw;
+  width: 27.91vw;
+  /* height: 90px; */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.8;
+}
+.welcome-img {
+  /* width: fit-content; */
+  width: 100%;
+  height: 100%;
+}
+.logo-img {
+  width: 189px;
+  height: 44px;
+  /* margin-top: 292px; */
+  margin-top: 200px;
+  /* margin-left: 72px; */
+}
+.login-text {
+  margin-top: 72px;
+  /* margin-left: 72px; */
+  width: 82px;
+  height: 28px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  opacity: 0.8;
+}
+/* .login-input-container{
+  margin-left: 5vw;
+
+} */
+
+.login-input-container {
+  margin-top: 32px;
+  /* margin-left: 72px; */
+  min-width: 342px;
+}
+.phone-input {
+  padding-bottom: 4px;
+  width: 23.75vw;
+  min-width: 300px;
+  /* min-width: 250px; */
+
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  outline: none;
+  appearance: none;
+  border-bottom: 1px solid #d0d0d0;
+
+}
+.login-input-container input::placeholder {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.11vw;
+  /* padding: 67px; */
+  line-height: normal;
+  color: #000000;
+  opacity: 0.2;
+}
+.login-input-container input[type="number"]{
+  font-size: 1.11vw;
+}
+.login-input-container input[type="password"]{
+  font-size: 1.11vw;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.password-input {
+  padding-bottom: 4px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 1px solid #d0d0d0;
+  /* opacity: 0.5; */
+  outline: none;
+  width: 23.75vw;
+  min-width: 300px;
+  /* min-width: 250px; */
+  margin-top: 7%;
+}
+.or-text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  opacity: 0.8;
+  margin-top: 0.55vw;
+}
+.reqst-otp-btn {
+ white-space: nowrap;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #2775eb;
+  cursor: pointer;
+  border-style:none ;
+  background-color: #ffffff;
+}
+.login-btn {
+  min-width: 308px;
+  margin-top: 32px;
+  /* margin-left: 5vw; */
+  height: 48px;
+  width: 23.75vw;
+  background: #d6d6d6;
+  border-radius: 8px;
+  border: navajowhite;
+  cursor: pointer;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.active-login-btn{
+  min-width: 308px;
+  /* min-width: 258px; */
+  margin-top: 32px;
+  /* margin-left: 5vw; */
+  height: 48px;
+  width: 23.75vw;
+  background: #d6d6d6;
+  border-radius: 8px;
+  border: navajowhite;
+  cursor: pointer;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: #FF9900;
+}
+.Forget-text {
+ margin-top: 22px;
+ /* margin-left: 5.9vw; */
+ width: 117px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  color: #2775eb;
+}
+.new-on-text {
+  /* width: 105px; */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  color: #333333;
+  opacity: 0.8;
+}
+.Sign-up-btn {
+  cursor: pointer;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  align-items: center;
+  color: #2775eb;
+}
+@media only screen and (min-width: 1441px)  {
+  .welcome-container {
+    width: 49.16vw;
+    height: 100vh;
+  
+   
+  }
+  .welcome-text {
+    margin-top: 6.11vw;
+    margin-left: 9.37vw;
+    width: 30.42vw;
+    font-size: 3.33vw;
+    line-height: 48px;
+  }
+  .welcome-para {
+    margin-top: 2.22vw;
+    margin-left: 10.62vw;
+    width: 27.91vw;
+    font-size: 1.38vw;
+    line-height: 2.08vw;
+ 
+  }
+  .welcome-img {
+    width: 100%;
+    height: 100%;
+  }
+  .logo-img {
+    width: 13.12vw;
+    height: 3.05vw;
+    margin-top: 20.88vh;
+    /* margin-left: 5vw */
+  }
+  .login-text {
+    margin-top: 5vw;
+    /* margin-left: 5vw; */
+    width: 5.69vw;
+    height: 1.95vw;
+    font-size: 1.95vw;
+    line-height: 1.95vw;
+  
+  }
+  .login-input-container {
+    margin-top: 2.22vw;
+    /* margin-left: 5vw; */
+  }
+  .phone-input {
+    padding-bottom: 0.27vw;
+    width: 23.75vw;
+    height: 2vw;
+    
+  }
+  .phone-input::placeholder {
+    /* font-size: .9vw; */
+    /* height: fit-content; */
+    /* line-height: 1.25vw; */
+ 
+  
+  }
+  
+  .password-input {
+    padding-bottom: 0.27vw;
+    width: 23.75vw;
+    margin-top: 7%;
+    height: 2vw;
+  }
+  .or-text {
+    
+    font-size: 0.97vw;
+    line-height: 1.25vw;
+   
+  }
+  .reqst-otp-btn {
+
+    font-size: 0.97vw;
+    line-height: 1.04vw;
+    
+  }
+  .login-btn {
+    margin-top:2.22vw;
+    /* margin-left: 5vw; */
+    height: 3.33vw;
+    width: 23.75vw;
+    border-radius: 0.55vw;
+    font-size: 1.11vw;
+    line-height: 1.38vw;
+ 
+  }
+  .active-login-btn{
+    margin-top: 2.22vw;
+    /* margin-left: 5vw; */
+    height: 3.33vw;
+    width: 23.75vw;
+ 
+    border-radius: 0.55vw;
+    
+    font-size: 1.11vw;
+    line-height:1.38vw;
+    
+  }
+  .Forget-text {
+   margin-top:  1.52vw;
+   /* margin-left: 5.9vw; */
+   width: 8.12vw;
+    font-size: 0.97vw;
+    line-height: 1.04vw;
+    
+  }
+  .new-on-text {
+  
+
+    font-size: 0.97vw;
+    line-height:  1.25vw;
+ 
+  }
+  .Sign-up-btn {
+   
+    font-size: 0.97vw;
+    line-height: 1.04vw;
+
+    
+}
+}

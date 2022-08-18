@@ -1,0 +1,31 @@
+.tag {
+  text-align: center;
+}
+
+
+.slick-slide img {
+  margin: auto;
+}
+
+.slick-list {
+  height: 136px;
+  /* width: 696px; */
+  width: 49.88vw;
+  filter: drop-shadow(0px 4px 18px rgba(116, 82, 214, 0.15));
+  border-radius: 16px;
+}
+.slick-dots li button:before {
+  font-size: 12px !important;
+}
+
+@media only screen and (min-width: 1441px) {
+  .slick-list {
+    height: 9.44vw;
+    width: 49.88vw;
+    /* filter: drop-shadow(0px 4px 18px rgba(116, 82, 214, 0.15)); */
+    border-radius: 1.11vw;
+  }
+  .slick-dots li button:before {
+    font-size: 0.83vw !important;
+  }
+}

@@ -1,0 +1,123 @@
+.number-input {
+  padding-bottom: 4px;
+  margin-top: 35px;
+  /* margin-left: 72px; */
+  width: 23.75vw;
+  min-width: 250px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  outline: none;
+  appearance: none;
+  border-bottom: 1px solid #d0d0d0;
+  /* opacity: 0.5; */
+}
+.codeNot-send-text{
+  margin-top: 8px;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #333333;
+opacity: 0.8;
+}
+.resend-text-btn{
+  margin-top: 10px;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+color: #2775EB;
+cursor: pointer;
+}
+.sign-up-btn {
+  margin-top: 32px;
+  /* margin-left: 5vw; */
+  /* min-width: 258px; */
+  min-width: 339px;
+  width: 23.75vw;
+  height: 48px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-radius: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: #D6D6D6;
+  color: #ffffff;
+  cursor: pointer;
+}
+.active-sign-up-btn{
+  margin-top: 32px;
+  /* margin-left: 5vw; */
+  min-width: 339px;
+  /* min-width: 258px; */
+  width: 23.75vw;
+  height: 48px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-radius: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* background: #D6D6D6; */
+  background: #FF9900;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1441px){
+  .number-input {
+    padding-bottom: 0.27vw;
+    margin-top: 2.43vw;
+    /* margin-left: 5vw; */
+    width: 23.75vw;
+    /* min-width: 250px; */
+   
+    /* opacity: 0.5; */
+  }
+  .codeNot-send-text{
+    margin-top: 0.55vw;
+
+  font-size: 0.97vw;
+  line-height: 1.25vw;
+ 
+  }
+  .resend-text-btn{
+    margin-top: 0.69vw;
+
+  font-size: 0.97vw;
+  line-height: 1.04vw;
+  cursor: pointer;
+ 
+  }
+  .sign-up-btn {
+    margin-top: 2.22vw;
+    /* margin-left: 5vw; */
+    width: 23.75vw;
+    height: 3.33vw;
+    border-radius: 0.55vw;
+    font-size: 1.11vw;
+    line-height: 1.38vw;
+
+  }
+  .active-sign-up-btn{
+    margin-top: 2.22vw;
+    /* margin-left: 5vw; */
+    width: 23.75vw;
+    height: 3.33vw;
+    border-radius: 0.55vw;
+    font-size: 1.11vw;
+    line-height: 1.38vw;
+  }
+   
+}

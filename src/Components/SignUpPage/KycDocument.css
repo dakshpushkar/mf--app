@@ -1,0 +1,178 @@
+.logo{
+  width: 189px;
+  height: 44px;
+  /* margin-top: 292px; */
+  margin-top: 80px;
+  /* margin-left: 72px; */
+}
+.hide-logo{
+  display: none;
+}
+.heading-upload {
+  width: 300px;
+  height: 28px;
+  /* margin-left: 5vw; */
+  margin-top: 72px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  color: #333333;
+  opacity: 0.8;
+}
+.upload-para {
+  width: 333px;
+  height: 30px;
+  margin-top: 32px;
+  /* margin-left: 5vw; */
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  opacity: 0.8;
+}
+.document-upload-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  width: 23.75vw;
+  /* min-width: 258px; */
+  min-width: 308px;
+  height: 11.11vw;
+  border: 2px dashed rgba(0, 0, 0, 0.2);
+  border-radius: 24px;
+  /* margin-left: 72px; */
+  cursor: pointer;
+}
+.hide-document-upload-container{
+  display: none;
+}
+.successfully-upload-conatiner {
+  margin-top: 35.4px;
+  /* margin-left: 72px; */
+  width: 141.1px;
+  height: 95.24px;
+  border: 2px solid #030303;
+  border-radius: 4px;
+  /* z-index: -1; */
+}
+.approved-icon {
+  position: absolute;
+  z-index: 1;
+  margin-top: 20px;
+  margin-left: 109.85px;
+  z-index: 1;
+}
+.reject-icon{
+  position: absolute;
+  z-index: 1;
+  margin-top: 20px;
+  margin-left: 293.85px;
+  z-index: 1;
+}
+.unsuccessfully-upload-conatiner {
+  border: 2px solid #0d0c0c;
+  /* filter: blur(4px); */
+  border-radius: 4px;
+  margin-top: 35.4px;
+  margin-left: 38.63px;
+  width: 141.1px;
+  height: 95.24px;
+}
+.skip-text{
+/* margin-top: 32px; */
+margin-left: 6.26vw;
+width: 105px;
+height: 15px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 15px;
+color: #2775EB;
+}
+.hide-skip-text{
+  /* display: none; */
+  visibility: hidden;
+}
+@media only screen and (min-width: 1441px){
+  .logo{
+    width: 13.12vw;
+    height: 3.05vw;
+    margin-top: 5.55vw;
+  
+  }
+  .heading-upload {
+    width: 28.83vw;
+    height: 1.94vw;
+    /* margin-left: 5vw; */
+    margin-top: 5vw;
+    font-size: 1.94vw;
+    line-height: 1.94vw;
+  }
+  .upload-para {
+    width: 23.12vw;
+    height: 2.08vw;
+    margin-top: 2.22vw;
+    font-size: 1.38vw;
+    line-height: 2.08vw;
+
+  }
+  .document-upload-container {
+
+    margin-top: 1.25vw;
+    width: 23.75vw;
+    height: 11.11vw;
+
+    border-radius: 1.66vw;
+    /* margin-left: 72px; */
+   
+  }
+  .hide-document-upload-container{
+    display: none;
+  }
+  .successfully-upload-conatiner {
+    margin-top: 2.45vw;
+    /* margin-left: 72px; */
+    width: 9.79vw;
+    height: 6.61vw;
+
+    border-radius: 0.27vw;
+    /* z-index: -1; */
+  }
+  .approved-icon {
+    margin-top: 1.38vw;
+    margin-left: 7.62vw;
+   
+  }
+  .reject-icon{
+ 
+    margin-top: 1.38vw;
+    margin-left:20.40vw;
+ 
+  }
+  .unsuccessfully-upload-conatiner {
+
+    /* filter: blur(4px); */
+    border-radius: 0.27vw;
+    margin-top: 2.45vw;
+    margin-left: 2.52vw;
+    width: 9.79vw;
+    height: 6.61vw;
+  }
+  .skip-text{
+  /* margin-top: 2.22vw; */
+  margin-left: 6.26vw;
+  width: 7.29vw;
+  height: 1.04vw;
+  font-size: 1.11vw;
+  line-height: 1.04vw;
+  }
+  
+}

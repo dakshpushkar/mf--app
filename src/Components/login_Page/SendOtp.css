@@ -1,0 +1,35 @@
+.code-not-send-text {
+  margin-top: 8px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  opacity: 0.8;
+}
+.resend-text {
+  margin-top: 10px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+cursor: pointer;
+  color: #2775eb;
+}
+@media only screen and (min-width: 1441px){
+  .code-not-send-text {
+  margin-top: 0.55vw;
+    font-size: 0.97vw;
+    line-height: 1.25vw;
+ 
+  }
+  .resend-text {
+  margin-top: 0.9vw;
+    font-size: 0.97vw;
+    line-height: 1.04vw;
+
+  }
+  
+}
